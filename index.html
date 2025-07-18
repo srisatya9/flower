@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bloom & Blossom - Flower Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Bloom & Blossom</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Fresh Flowers for Every Occasion</h1>
+    <p>Brighten someone's day with a bouquet from Bloom & Blossom.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a boutique flower business delivering elegant floral designs for weddings, events, and personal gifts. Our flowers are sourced fresh and arranged with love.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Our Creations</h2>
+    <div class="gallery-grid">
+      <img src="https://source.unsplash.com/300x300/?flower,bouquet" alt="Bouquet 1">
+      <img src="https://source.unsplash.com/300x300/?roses" alt="Bouquet 2">
+      <img src="https://source.unsplash.com/300x300/?wedding,flowers" alt="Bouquet 3">
+      <img src="https://source.unsplash.com/300x300/?tulip" alt="Bouquet 4">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Bloom & Blossom. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
